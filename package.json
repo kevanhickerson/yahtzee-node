@@ -1,0 +1,19 @@
+{
+  "name": "yahtzee-node",
+  "version": "1.0.0",
+  "description": "Get the possible scores for each scoring category given a set of unordered dice",
+  "main": "app.js",
+  "author": "Kevan Hickerson",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lintfix": "eslint --fix .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "jest": "^26.6.3"
+  }
+}
