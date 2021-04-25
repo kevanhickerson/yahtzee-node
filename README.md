@@ -7,7 +7,14 @@ Given a set of unordered dice values, return back the possible scores for each s
 2. Run `yarn install`
    
 ## Usage
+### Console
 1. Run `node app.js 1 2 3 4 5` to find out the scores for the dice roll 1, 2, 3, 4, 5
+### Server
+1. Run `node server.js`
+2. Go to http://localhost:3000/
+3. Add the dice as a query string array to the url. i.e., `?dice[]=1&dice[]=1&dice[]=1&dice[]=1&dice[]=1`
+
+Example Url: http://localhost:3000/?dice[]=1&dice[]=1&dice[]=1&dice[]=1&dice[]=1
 
 ## Linting
 1. Run `yarn lint`

@@ -14,7 +14,7 @@ dice = dice.map(val => {
     }
 
     return num;
-})
+});
 
 const score = new Score(dice);
 score.getCategories().forEach((cat) => {
